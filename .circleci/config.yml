@@ -7,7 +7,7 @@ jobs:
       MANIFEST_BRANCH: 'lineage-17.1'
       VERSION: '3.0.0'
       MAINTAINER: '@UNKNOWN_MEMBER_69'
-      VENDOR: 'realme'
+      VENDOR: 'samsung'
       CODENAME: 'o7prolte'
       FLAVOR: 'eng'
       #TEST_BUILD: 'true'
