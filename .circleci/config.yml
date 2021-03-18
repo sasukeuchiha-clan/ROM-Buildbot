@@ -28,7 +28,7 @@ jobs:
            repo init -u git://github.com/LineageOS/android.git -b lineage-17.1
            git clone https://github.com/sasukeuchiha-clan/local_manifests .repo/local_manifests
            repo sync --force-sync -j69
-           . build/envsetup.sh && lunch lineage_o7prolte
+           . build/envsetup.sh && lunch lineage_o7prolte && mka bacon -j69
 workflows:
   version: 2.1
   build_and_test:
