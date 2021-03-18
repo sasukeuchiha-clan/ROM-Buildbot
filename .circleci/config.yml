@@ -17,7 +17,7 @@ jobs:
     working_directory: /home/builder/pitchblack
     steps:
       - run:
-          name: heeh
+          name:heeh
           command: |
             lshw -short
             df -h 
